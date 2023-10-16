@@ -1,0 +1,1 @@
+Hello! it's connect 4 game that i do in my programming class which I only used conditionals, arrays and two dimendional arrays.

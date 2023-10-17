@@ -102,7 +102,7 @@ void mostrar(char matriz[6][7]){
 char verificar (int n,int x,int lista[],char matriz[6][7]){
     char band='f';
 
-    if (lista[x]>=0 && x<7)
+    if (lista[x]>=0 && x<7 && x>=0)
     {
         if (n%2==0)
         {

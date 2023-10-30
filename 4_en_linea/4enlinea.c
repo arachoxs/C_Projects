@@ -358,7 +358,7 @@ char ver_diagonal(char matriz[6][7]){
             {
                 p_winner=matriz[x][y];
                 band='t';
-                printf("El jugador ganador es: %c!\n",p_winner);
+                printf("El jugador ganador es: %c!!\n",p_winner);
                 break;
             }
             

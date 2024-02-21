@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <windows.h>
+#include <stdlib.h>
 
 //4 en linea 
 
@@ -24,7 +24,7 @@ char winner(char matriz[6][7],int n);
 int main()
 {
 
-system("cls");
+system("clear");
 
 char mesa[6][7];
 int disp[7]={5,5,5,5,5,5,5};
@@ -42,7 +42,7 @@ do
     juego(mesa,turno,disp,ficha);
     
 
-    system("cls");
+    system("clear");
 
     mostrar(mesa);
 
@@ -57,8 +57,9 @@ if (ganador=='E')
 {
     printf("Empate!!\n");
 }
+char continuar;
 
-system("pause"); 
+continuar=getchar();
 
 
     return 0;
